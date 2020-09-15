@@ -1,0 +1,21 @@
+.bg {
+    /* The image used */
+    background-image: url("../assets/bckgrnd1.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+  }
+  .centered {
+    opacity: 100%;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+  }
